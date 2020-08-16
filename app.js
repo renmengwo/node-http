@@ -1,4 +1,3 @@
-const { ok } = require('assert')
 const http = require('http')
 const querystring = require('querystring')
 
@@ -41,4 +40,4 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(8000)
-console.log(ok)
+console.log('ok')
